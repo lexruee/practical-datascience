@@ -1,5 +1,8 @@
 import math
 
+def data_range(xs):
+    return max(xs) - min(xs)
+
 def median(xs):
     l = len(xs)
     xss = sorted(xs)
