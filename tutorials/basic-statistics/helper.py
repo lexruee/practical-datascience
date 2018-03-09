@@ -37,3 +37,10 @@ def covariance(xs, ys):
     xss, yss = de_mean(xs), de_mean(ys)
     return sum([x * y for x,y in zip(xss, yss)])/(l-1)
 
+def correlation(xs, ys):
+    sx, sy = std(xs), std(ys)
+    sxy = covariance(xs, ys)
+    if sx and sy:
+        return sxy / (sx * sy)
+    else:
+        return 0

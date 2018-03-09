@@ -28,4 +28,6 @@ print("range: %s" % data_range_xs)
 
 
 covariance_xsys = helper.covariance(xs, ys)
+correlation_xsys = helper.correlation(xs, ys)
 print("covariance: %s" % covariance_xsys)
+print("correlation: %s" % correlation_xsys)
