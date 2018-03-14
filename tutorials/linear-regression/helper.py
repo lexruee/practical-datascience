@@ -1,4 +1,5 @@
 import math
+import numpy as np
 
 def data_range(xs):
     return max(xs) - min(xs)
@@ -50,3 +51,13 @@ def sols(ys, xs):
     alpha = mean(ys) - beta * mean(xs)
     return alpha, beta
 
+def ols(y, X, const=True):
+    y = np.array([y]).transpose()
+    ones = np.ones(y.shape)
+    X = np.array(X).transpose() 
+    X = np.hstack([X, ones])
+    Xp = X.transpose()
+    beta = np.linalg.inv(Xp.dot(X)).dot(Xp).dot(y)
+    yp = X.dot(beta)
+    u = y - yp
+    return beta, yp, u
