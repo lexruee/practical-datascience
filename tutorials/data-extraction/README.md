@@ -38,6 +38,23 @@ optional arguments:
                         JSON output file.
 ```
 
+```
+./diff_plotter.py -h
+usage: diff_plotter.py [-h] [-V] [-o OUTPUT] [-i INPUT] [-S]
+
+ellap - Simple tool to plot ella difficulty
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -V, --version         Print version number.
+  -o OUTPUT, --output OUTPUT
+                        Plot output file.
+  -i INPUT, --input INPUT
+                        JSON input file.
+  -S, --show            Show plot.
+
+```
+
 ## Example Usage
 
 Extracting data from the genesis block to the latest block:
