@@ -17,10 +17,10 @@ plt.plot(xs, ys1, 'b--')
 plt.plot(xs, ys2, 'r--')
 plt.plot(xs, ys3, 'g--')
 plt.plot(xs, ys4, 'k--')
-plt.title('Various Normal Distributions')
+plt.title('Various Cumulative Normal Distributions')
 plt.ylabel('f(x)')
 plt.xlabel('Value')
-plt.legend(['N(mu=0,sigma=1)', 'N(mu=0,sigma=2)', 'N(mu=0,sigma=0.5)', 
+plt.legend(['Erf(mu=0,sigma=1)', 'Erf(mu=0,sigma=2)', 'Erf(mu=0,sigma=0.5)', 
     'N(mu=-1,sigma=1'])
 plt.show()
 
