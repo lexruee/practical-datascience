@@ -21,6 +21,6 @@ plt.title('Various Cumulative Normal Distributions')
 plt.ylabel('f(x)')
 plt.xlabel('Value')
 plt.legend(['Erf(mu=0,sigma=1)', 'Erf(mu=0,sigma=2)', 'Erf(mu=0,sigma=0.5)', 
-    'N(mu=-1,sigma=1'])
+    'Erf(mu=-1,sigma=1'])
 plt.show()
 
