@@ -1,5 +1,5 @@
 # Data Exctration
-Examplae data extraction from eth-based blockchains.
+Example script files to extract data from eth-based blockchains.
 
 ## Dependencies
 
