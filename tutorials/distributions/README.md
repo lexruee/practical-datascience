@@ -13,3 +13,18 @@ def normal_pdf(x, mu=0, sigma=1):
 
 
 ![](https://raw.githubusercontent.com/lexruee/practical-datascience/master/tutorials/distributions/normal-dists.png)
+
+
+## Cumulative Normal Distribution
+
+The Cumulative distribution function can computed with the help of the 
+Gauss error function:
+
+```python
+def normal_cdf(x, mu=0, sigma=1):
+    return (1 + math.erf((x - mu) / math.sqrt(2) / sigma)) / 2
+```
+
+![](https://raw.githubusercontent.com/lexruee/practical-datascience/master/tutorials/distributions/cnormal-dists.png)
+
+
