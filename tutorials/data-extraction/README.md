@@ -47,11 +47,8 @@ Extracting data from the genesis block to the latest block:
 ```
 
 
-
 ```
 ./diff_plotter.py -i ella.json --show  
 ```
 
-
-
-![](https://raw.githubusercontent.com/lexruee/practical-datasience/master/tutorials/data-extraction/ella-diff.png)
+![](https://raw.githubusercontent.com/lexruee/practical-datascience/master/tutorials/data-extraction/ella-diff.png)
