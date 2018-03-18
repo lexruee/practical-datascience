@@ -12,3 +12,9 @@ Another example 24 hour plot, displaying data captured by the BME280 sensor.
 
 
 ![](https://raw.githubusercontent.com/lexruee/practical-datascience/master/tutorials/sensor-data/plot-17-3-2018.png)
+
+
+Example 24 hour plot with SMA, displaying data captured by the BME280 sensor.
+
+
+![](https://raw.githubusercontent.com/lexruee/practical-datascience/master/tutorials/sensor-data/plot-17-3-2018-sma.png)
